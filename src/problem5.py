@@ -216,11 +216,6 @@ def problem5(x):
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-    candidate = x
-    while True:
-        if is_prime(candidate) and is_prime(sum_of_digits(candidate)):
-            return candidate
-        candidate = candidate + 1
 
 
 ###############################################################################

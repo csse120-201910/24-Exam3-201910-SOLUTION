@@ -93,11 +93,6 @@ def problem2(sequence):
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-    index = 0
-    for k in range(1, len(sequence)):
-        if abs(sequence[k]) > abs(sequence[index]):
-            index = k
-    return index
 
 
 ###############################################################################

@@ -89,10 +89,6 @@ def problem1(numbers):
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-    total = 0
-    for k in range(len(numbers) // 3, 2 * len(numbers) // 3):
-        total = total + numbers[k]
-    return total
 
 
 ###############################################################################

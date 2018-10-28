@@ -227,12 +227,6 @@ def problem3(seq_of_seq):
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
-    for k in range(len(seq_of_seq)):
-        numbers = seq_of_seq[k]
-        for j in range(len(numbers)):
-            if is_prime(numbers[j]):
-                return numbers
-    return -1
 
 
 ###############################################################################
